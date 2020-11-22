@@ -1,10 +1,9 @@
 {
-  "name": "node-firstwebsite",
+  "name": "firstwebsite",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src",
+    "start": "node index.js",
     "dev": "nodemon src"
   },
   "keywords": [],
@@ -14,10 +13,20 @@
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "git": "^0.1.5",
+    "mime": "^2.4.6",
     "morgan": "^1.10.0",
     "vercel": "^20.1.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroibanez08/nodejsprimerapagina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedroibanez08/nodejsprimerapagina/issues"
+  },
+  "homepage": "https://github.com/pedroibanez08/nodejsprimerapagina#readme",
+  "description": ""
 }

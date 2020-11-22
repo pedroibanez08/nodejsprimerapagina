@@ -18,7 +18,7 @@ app.set('view engine','ejs');
 	//res.sendFile(path.join(__dirname,'views/index.html'));
 //res.send(`Hello world`);
 
-app.use(require('./routes/index'));
+app.use(require('./routes'));
 
 // });
 
